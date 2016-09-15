@@ -1,0 +1,27 @@
+{
+  "name": "TaskBan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "buildRelease": "cd android && ./gradlew assembleRelease",
+    "installRelease": "cd android && ./gradlew installRelease"
+  },
+  "dependencies": {
+    "@remobile/react-native-splashscreen": "^1.0.3",
+    "alt": "^0.18.1",
+    "alt-utils": "^1.0.0",
+    "react": "^0.14.8",
+    "react-native": "^0.25.1",
+    "react-native-action-button": "^1.0.8",
+    "react-native-android-statusbar": "^0.1.2",
+    "react-native-calendar": "^0.7.0",
+    "react-native-collapsible": "^0.7.0",
+    "react-native-material-design": "git+https://github.com/react-native-material-design/react-native-material-design.git",
+    "react-native-material-kit": "^0.3.2",
+    "react-native-scrollable-tab-view": "^0.5.1",
+    "react-native-vector-icons": "^2.0.3",
+    "realm": "^0.14.1",
+    "reflux": "^0.4.1"
+  }
+}
